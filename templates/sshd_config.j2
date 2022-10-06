@@ -8,7 +8,7 @@
 # possible, but leave them commented.  Uncommented options override the
 # default value.
 
-{% if openssh_version|float >= 7.3 %}
+{% if openssh_version|float >= 8.2 %}
 Include /etc/ssh/sshd_config.d/*.conf
 {% endif %}
 
